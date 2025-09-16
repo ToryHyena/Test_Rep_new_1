@@ -16,10 +16,12 @@ public class Triangle {
 
     public Triangle(double a, double b, double c)
     {
-        this.a=a;
-        this.b=b;
-        this.c=c;
-        this.message = "Equally";
+        int a = a;
+        int b = b;
+        int c = c;
+
+        if (a == b && b == c) {
+            System.out.println("Equally");
     }
 
     public String getMessage()
