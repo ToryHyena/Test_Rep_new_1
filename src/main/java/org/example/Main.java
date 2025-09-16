@@ -19,7 +19,7 @@ public class Triangle {
         this.a=a;
         this.b=b;
         this.c=c;
-        this.message = "";
+        this.message = "Equally";
     }
 
     public String getMessage()
