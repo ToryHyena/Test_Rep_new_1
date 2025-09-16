@@ -103,7 +103,7 @@ public class Triangle {
     }
 
 
-    public double getSquare()
+    public double getSquare2()
     {
         double p;
 
