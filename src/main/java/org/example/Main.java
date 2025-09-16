@@ -14,14 +14,15 @@ public class Triangle {
 
     private String message;
 
-    public Triangle(double a, double b, double c)
-    {
+    public Triangle1(double a, double b, double c) {
+
         int a = a;
         int b = b;
         int c = c;
 
         if (a == b && b == c) {
             System.out.println("Equally");
+        }
     }
 
     public String getMessage()
@@ -70,7 +71,7 @@ public class Triangle {
         return true;
     }
 
-    public int detectTriangle()
+    public int detectTriangle2()
     {
         int final_state = 0;
 
